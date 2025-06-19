@@ -26,7 +26,7 @@
     - 'Expose an API' by adding a 'Scope' and a 'Client Application', with the latter referencing your 'Application (Client) ID'.
     - if you type 'subscriptions' into the search box at the top of the Azure Portal, you can find your Subscription ID:
         - the 'Subscription ID' is your `ARM_SUBSCRIPTION_ID`
-    - **IMPORTANT** within your subscription, go to 'Access Control (IAM)' and 'Role Assignments'.  Add a Role Assignment and give your 'App' the 'Contributor Role'. 
+    - **IMPORTANT** within your subscription, go to 'Access Control (IAM)' and 'Role Assignments'.  Add a Role Assignment and give your 'App' the 'Contributor Role'.  
 
 4. Create Azure Storage Account.  Use default values except for the following items: 
     - Create new `Resource Group`
@@ -71,4 +71,3 @@
     - Navigate to https://docs.cloud.f5.com/docs-v2
     - Scroll down and click `Multi-Cloud Network Connect`
     - From the left menu >> `How To` >> `Site Management` >> `Deploy Secure Mesh Site v2 in Azure (ClickOps)`
-    
