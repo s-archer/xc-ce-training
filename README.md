@@ -1,5 +1,9 @@
 # xc-ce-training
 
+This repo creates a GitHub Actions CI/CD workflow to deploy SMSv2 site into Azure.  The workflow is a very simple 101, as shown in the diagram below. 
+
+![workflow diagram](./images/workflow.png)
+
 ## Prerequisites
 
 - VScode: Install VSCode 
@@ -46,6 +50,7 @@
 
 6. in VScode, Update variables and values:
     - Rename `vars.auto.tfvars.example` to `vars.auto.tfvars` and modify values to match your deployment
+    -- **IMPORTANT** make sure you remember to use the correct name for your .p12 file
     - In `provider.tf` update the values for `resource_group_name` and `storage_account_name` to match the values you used to create the Storage Account in step 3.
 
 7. In the github UI, make sure you are logged in and then navigate to your forked copy of this repo
